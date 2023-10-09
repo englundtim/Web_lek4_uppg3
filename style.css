@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr auto auto 1fr;
+    background-image: url(./img/winter_bg3.jpg);
+
+}
+header{
+    background-color: grey;
+    text-align: center;
+    color: #F6E9DC;
+    border: 2px solid red;
+}
+.navisch{
+    background-color: grey;
+    color: #F6E9DC;
+    border: 1px solid yellow;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-column: 2/3;
+}
+#color1{
+    background-color: white;
+    color: red;
+}
+#color2{
+    background-color: yellow;
+    
+}
